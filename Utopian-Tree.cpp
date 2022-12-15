@@ -1,3 +1,17 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+
+/*
+ * Complete the 'utopianTree' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts INTEGER n as parameter.
+ */
+
 int utopianTree1(int n)
 {
     int result = 1;
